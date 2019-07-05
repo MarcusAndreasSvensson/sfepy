@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+numpy = "*"
+cython = "*"
+pyparsing = "*"
+scipy = "*"
+matplotlib = "*"
+sympy = "*"
+mayavi = "*"
+pytables = "*"
+scikit-umfpack = "*"
+pysparse = "*"
+igakit = "*"
+petsc4py = "*"
+mpi4py = "*"
+pymetis = "*"
+
+[requires]
+python_version = "3.7"
